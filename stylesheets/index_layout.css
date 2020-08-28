@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+.back-to-main-page {
+  padding: 20px 20px 0;
+}
+
+/* Первый экран */
+.is-first-screen {
+  padding: 20px 20px 0;
+
+  background-color: #EF3D35;
+}
+
+.first-screen-img {
+  height: 42vh;
+}
+
+.professional-areas {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.professional-areas p {
+  color: #000;
+
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.professional-areas a {
+  text-decoration: none;
+
+  color: #fff;
+
+  font-size: 18px;
+}
+
+.professional-areas a:hover {
+  transition: 300ms;
+
+  color: #EF3D35;
+}
+
+/* Раздел Проекты */
+.is-projects {
+  padding: 20px 20px 0;
+}
+
+.project .img {
+  margin-bottom: 10px;
+}
+
+.project a {
+  text-decoration: none;
+
+  color: #000;
+
+  font-size: 26px;
+}
+
+.project:hover a {
+  color: #EF3D35;
+}
+
+.project p {
+  padding-top: 8px;
+
+  color: #909090;
+
+  font-size: 18px;
+}
+
+.img.project-easysort {
+  display: flex;
+
+  height: 430px;
+
+  background-color: #000;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.img.project-id-simple {
+  position: relative;
+
+  overflow: hidden;
+
+  height: 430px;
+
+  background-color: #f7f7f7;
+}
+
+.img.project-three-minds {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+
+  height: 430px;
+
+  background-color: #526AFF;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.img.project-three-minds  p {
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FF412C;
+
+  font-family: 'Tahoma', sans-serif;
+  font-size: 180px;
+  font-weight: 700;
+  line-height: 200px;
+}
+
+.img.project-mts-service-package-card {
+  display: flex;
+
+  height: 430px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.img.project-mts-service-package-card {
+  background-color: #f7f7f7;
+}
+
+.img.project-my-pocket {
+  display: flex;
+
+  height: 430px;
+
+  background-image: url("../img/index/keys.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.project:hover .img.project-my-pocket {
+  background-image: url("../img/index/keys-hover.png");
+}
+
+/* Раздел About me */
+.is-about-me {
+  padding: 150px 20px 0;
+}
+
+.text-about-me p {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.text-about-me p+p {
+  padding-top: 25px;
+}
+
+.text-about-me p a {
+  text-decoration: underline;
+
+  color: #000;
+}
+
+.text-about-me p a:hover {
+  color: #EF3D35;
+}
+
+.img-about-me {
+  width: 187px;
+  height: 187px;
+
+  background-image: url("../img/index/portrait.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img-about-me:hover {
+  transition: 400ms;
+
+  background-image: url("../img/index/portrait-hover.jpg");
+}
+
+.is-social-media {
+  padding: 150px 20px 0;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.social-media a {
+  text-decoration: none;
+
+  color: #000;
+
+  font-family: 'Six Caps', sans-serif;
+  font-size: 250px;
+}
+
+.social-media a:hover {
+  transition: 400ms;
+
+  color: #EF3D35;
+}

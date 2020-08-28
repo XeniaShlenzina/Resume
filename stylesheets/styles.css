@@ -1,0 +1,16 @@
+@import "reset.css";
+@import "grid.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Six+Caps&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+@import "index_layout.css";
+@import "index_animation/animation_idsimple.css";
+@import "index_animation/animation_easysort.css";
+@import "index_animation/animation_mts-service-package-card.css";
+@import "index_animation/animation_arrow_icon.css";
+@import "pp_whatsinmypocket_layout.css";
+@import "pp_mtsservicepackage_layout.css";
+@font-face {
+ font-family: "Tahoma";
+
+ src: url("../fonts/Tahoma-Bold.woff") format("woff"),
+        url("../fonts/Tahoma.woff") format("woff");
+}
