@@ -115,9 +115,9 @@ table {
 
   border-collapse: collapse;
 
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 thead {
@@ -128,7 +128,6 @@ thead {
 
 ​tr {
   padding-bottom: 12px
-  border-bottom: .5px solid rgba(0, 0, 0, .25);
 }
 
 th {
