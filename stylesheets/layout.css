@@ -9,6 +9,8 @@ body {
  font-family: 'Lora', sans-serif;
 }
 
+/* Навигация */
+
 nav ul {
   position: fixed;
   z-index: 1000;
@@ -187,4 +189,6 @@ td {
 
   vertical-align: top;
 }
+
+/* Страница портфолио */
 ​
