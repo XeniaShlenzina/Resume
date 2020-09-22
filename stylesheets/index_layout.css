@@ -9,6 +9,49 @@ body {
  font-family: 'Lora', sans-serif;
 }
 
+nav {
+  position: fixed;
+  z-index: 1000;
+
+  display: flex;
+
+  width: 100vw;
+  height: 44px;
+  padding: 0 64px;
+
+  color: #fff;
+  background-color: #000;
+
+  font-family: 'Alegreya Sans', sans-serif;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav span:first-of-type {
+  padding-right: 12px;
+
+  color: #f7f7f7;
+
+  font-weight: bold;
+}
+
+nav a {
+  padding: 0 12px;
+
+  color: #f7f7f7;
+}
+
+nav a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+nav a:active {
+  color: #000;
+  background-color: #fff;
+}
+
 h1 {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 64px;
@@ -82,7 +125,7 @@ a:hover {
   float: right;
 
   width: 50vw;
-  padding: 32px 64px 88px;
+  padding: 64px 64px 88px;
 }
 
 .contacts {
