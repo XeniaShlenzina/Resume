@@ -201,7 +201,6 @@ td {
 
 .first-row {
   display: flex;
-  flex-direction: row;
 
   padding-top: 24px;
 }
@@ -229,6 +228,8 @@ img {
   width: 100%;
   margin: 8px 0 0;
 
+  color: #6E7782;
+
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -236,11 +237,12 @@ img {
 }
 
 .project {
-  padding-right: 32px;
+  width: calc(50% - 16px);
+  margin-right: 32px;
 }
 
 .project:last-of-type {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .project-cover-gotomts {
