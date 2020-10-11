@@ -48,7 +48,7 @@ p {
 
 a {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 
   color: #0097FD;
 }
